@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/**
+ * icircle module css 
+ * author: hanjie;
+ */
+/**
+ * 预定义变量
+ */
+$brand-color: #c14040;
+$gray-base: #000;
+$text-color: #333;
+$link-color: #333;
+$btn-font-color: #fff;
+
+.x-btn{
+	/* reset */
+	cursor: pointer;
+    outline: none;
+	text-decoration: none;
+
+	/* Typography */
+	color: $btn-font-color;
+
+	/* Visual */
+  	background-color: $brand-color;
+
+}
+.x-btn:hover,
+.x-btn:active,
+.x-btn:visited,
+.x-btn:focus{
+	/* reset */
+    outline: none;
+
+	/* Typography */
+	color: $btn-font-color;
+}
+
+/*btn-rect*/
+.x-btn-rect{
+	border-radius: 0;
+}
+/*btn-circle*/
+.x-btn-circle{
+	border-radius: 50%;
+}

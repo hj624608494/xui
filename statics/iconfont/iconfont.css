@@ -1,0 +1,30 @@
+
+@font-face {font-family: "x-iconfont";
+  src: url('iconfont.eot'); /* IE9*/
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff') format('woff'), /* chrome、firefox */
+  url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('iconfont.svg#x-iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.x-iconfont {
+  font-family:"x-iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.x-icon-location:before { content: "\e602"; }
+.x-icon-up-arrow:before { content: "\e605"; }
+.x-icon-down-arrow:before { content: "\e606"; }
+.x-icon-add:before { content: "\e603"; }
+.x-icon-sms:before { content: "\e600"; }
+.x-icon-checkMark:before { content: "\e601"; }
+.x-icon-heart:before { content: "\e604"; }
+.x-icon-camera:before { content: "\e607"; }
+.x-icon-group:before { content: "\e608"; }
+.x-icon-arrowThin:before { content: "\e609"; }
+.x-icon-goldBag:before { content: "\e60a"; }
+.x-icon-calendar:before { content: "\e60b"; }
+.x-icon-share:before { content: "\e60c"; }
